@@ -1,0 +1,16 @@
+security:
+  oauth2:
+    client:
+      client-id: waffle
+      client-secret: hammer
+      scope: read,write
+      auto-approve-scopes: '.*'
+    resource:
+      user-info-uri: https://localhost:15860/test
+      filter-order: 3
+server:
+  port: 15860
+#  ssl:
+#    key-store: OAuth2Mock/configs/oauth2mock.p12
+#    key-store-password: changeit
+#    keyStoreType: PKCS12
