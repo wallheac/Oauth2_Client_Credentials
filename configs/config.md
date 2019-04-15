@@ -1,1 +1,0 @@
-# Your .p12 goes in this folder
